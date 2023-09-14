@@ -135,12 +135,13 @@ button {
 
 .info h3 {
     font-size: 36px;
+    margin: 0 0 18px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
     margin-top: 18px;
 }
 
@@ -208,7 +209,7 @@ button {
     font-size: 24px;
 } 
 
-p.title {
+p.slogan {
     font-weight: bold;
 }
 
@@ -228,4 +229,9 @@ p.title {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer p {
+    font-size: 18px;
+    color: white;
 }
