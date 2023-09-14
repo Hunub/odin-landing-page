@@ -60,6 +60,10 @@ a {
     font-weight: 200
 }
 
+a:hover {
+    color: #b3d12f;
+}
+
 
 .cover {
     flex: 1 1 auto;
@@ -111,6 +115,10 @@ button {
     background-color: #b3d12f;
     color: black;
     border: 1px solid #b3d12f;
+}
+
+.description>button:hover {
+    background-color: #d9dd06;
 }
 
 .image img {
@@ -222,6 +230,11 @@ p.slogan {
     background-color: white;
     color: black;
     border: 1px solid white;
+}
+
+.action_btn:hover {
+    background-color: #f2f552;
+    border: 1px solid #f2f552
 }
 
 .footer {
